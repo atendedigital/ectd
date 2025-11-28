@@ -1,4 +1,4 @@
-name: Build Scheduled
+name: Ectd - Build Scheduled
 
 on:
   schedule:
