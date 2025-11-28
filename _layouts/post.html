@@ -13,7 +13,7 @@ layout: default
 **+ Ferramentas que todo empreendedor precisa ter:**
 
 {% for link in site.links_globais %}
-• <a href="{{ link.url }}" target="_blank" style="color:#e91e63;font-weight:bold;text-decoration:underline;">{{ link.nome }}</a>{% unless forloop.last %} {% endunless %}
+• <a href="{{ link.url }}" target="_blank" style="color:#e91e63;font-weight:bold;text-decoration:underline;">{{ link.nome }}</a><br><br>{% unless forloop.last %} {% endunless %}
 {% endfor %}
 
   <br><br>
